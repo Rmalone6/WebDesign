@@ -49,9 +49,23 @@ background-repeat: no-repeat;
     background-color: black;
 }
 aside{
-    border: .5px solid yellow;
+    border: .5px solid white;
     width: 18.5%;
     float: right;
+    
+    
+    
+}
+asidel{
+    
+float: left;
+    width: 18.5%;
+    padding-top: 5%;
+    border: .px solid white;
+    
+    
+    
+                
     
 }
 
@@ -107,3 +121,123 @@ align-content: center;}
 .row{
 text-align: center;
 }
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking {
+	font-family: 'Montserrat', sans-serif;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+#booking::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	background: #669999;
+}
+
+.booking-form {
+	background-color: #fff;
+	padding: 50px 100px;
+    
+	
+	
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.booking-form .form-control {
+	background-color: #ebecee;
+	border-radius: 4px;
+	border: none;
+	height: 40px;
+	
+	
+	color: #3e485c;
+	font-size: 14px;
+}
+
+
+
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 4px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(62, 72, 92, 0.3);
+	font-size: 14px;
+}
+
+
+
+.booking-form .form-label {
+	
+	color: #3e485c;
+	font-weight: 700;
+	margin-bottom: 6px;
+	margin-left: 7px;
+    align-content: center;
+    
+}
+
+.booking-form .submit-btn {
+	
+	color: #fff;
+	background-color: #669999;
+	font-weight: 700;
+	padding: 14px 30px;
+	border-radius: 4px;
+	border: none;
+	
+	
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+.booking-cta {
+	
+	
+	margin-bottom: 30px;
+}
+
+.booking-cta h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.booking-cta p {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+

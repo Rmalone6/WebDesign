@@ -1,0 +1,60 @@
+header p{
+position: relative;
+top: 10px;
+font-style: italic;
+    text-align: center;
+    
+    
+}
+
+body{font-family: serif;
+background-image: url(images/holiday.jpg);
+background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+    
+    margin: 10px;
+    
+}
+main{
+margin: 15px, 200px;
+padding: 20px;
+border: solid #66c8d1;
+background: white;
+min-height: 500px;
+    
+}
+
+.required{
+font-weight: bold;
+color: red;
+}
+
+label{
+float: left;
+width: 112px;
+padding-right: 10px;
+text-align:center;
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    width: 220px;
+    
+}
+
+input[type="radio"]{width: 10px;}
+input[type="checkbox"]{width: 15px;}
+
+#button {
+margin-left: 138px;
+    
+}
+#button,#reset {
+margin-top: 0.5em;
+    width: 8em;
+    background-color: #66c8d1;
+    border: 2px solid #66c8d1;
+}
